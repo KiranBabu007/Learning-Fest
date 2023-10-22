@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url(https://lh3.googleusercontent.com/-cZGLNkPs9R9FkrvthKRVjBOBJ8EeQtNOmiAbHuQZVH64Yo0A9K6eEDiCRnyq-WR7U9gfhkFLFSHC4s=w1366-h657);
+        background-size: cover;
+    }
+    .formbox{
+        margin: auto;
+        margin-top: 30px;
+        height: 600px;
+        width: 400px;
+        background-color: white;
+    }
+    label{
+        margin-left: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+
+    }
+    input{
+        border: none;
+        height: 30px;
+        width: 360px;
+        background-color: #F1f1f1;
+        border-radius: 20px 20px 20px 20px;
+        margin-left: 10px;
+        padding-left:10px;
+        padding-right: 10px;
+    }
+    .head{
+       height: 80px;
+       width: 380px;
+       margin: auto;
+       border-bottom: 1px solid #f1f1f1;
+    }
+    .foot{
+        height: 20px;
+       width: 380px;
+       margin: auto;
+       border-bottom: 1px solid #f1f1f1;
+    }
+
+    h1{
+        text-align: center;
+        padding-top:20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+    .pair{
+       margin-top: 15px;
+    }
+    
+    button{
+        color: white;
+        background-color: black;
+        height: 40px;
+        width:380px;
+        margin: 10px;
+        margin-top: 30px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       
+    }
+</style>
+<body>
+    <div class="formbox">
+        <div class="head">
+          <h1>Sign Up</h1>
+        </div>
+        <form action="submit">
+            <div class="pair">
+                <label for="fname">First Name</label><br>
+                <input type="text" placeholder="Enter name"><br>
+            </div>
+            <div class="pair">
+                <label for="lname">Last Name</label><br>
+                <input type="text"  placeholder="Enter name"><br>
+            </div>
+            <div class="pair">
+                <label for="dob">Date of Birth</label><br>
+                <input type="date"  placeholder="Enter Date of Birth"><br>
+            </div>
+            <div class="pair">
+                <label for="email">Email</label><br>
+                <input type="mail" placeholder="Enter Email"><br>
+            </div>
+            <div class="pair">
+                <label for="Pass">Password</label><br>
+                <input type="password" placeholder="Enter Password"><br>
+            </div>
+            <div class="pair">
+                <label for="passcon">Confirm Password</label><br>
+                <input type="password" placeholder="Confirm Password"><br>
+            </div>
+            <div class="foot"> </div>
+          <button>Register</button>
+
+        </form>
+    </div>
+    
+</body>
+</html>
