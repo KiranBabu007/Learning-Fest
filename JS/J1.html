@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dice Rolling Program</title>
+</head>
+<body>
+    <script>
+        function rollDice(){
+        var diceResult = Math.floor(Math.random() * 6)+1
+        document.getElementById("diceResult").innerHTML = "Dice Result is "+diceResult
+        }
+    </script>
+
+  <button onclick="rollDice()">Roll Dice</button>
+  <p id="diceResult"></p>
+
+  
+</body>
+</html>
